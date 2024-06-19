@@ -6,7 +6,7 @@ vim.g.maplocalleader = " "
 
 -- tabs 8 
 vim.opt.tabstop = 8
-vim.opt.shiftwidth = 8
+-- vim.opt.shiftwidth = 8 -- the number of spaces inserted for each indentation
 vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.cindent = true
