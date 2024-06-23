@@ -14,7 +14,7 @@ return {
 	return vim.fn["codeium#Clear"]()
       end, { expr = true })
 			-- disable in beiginning
-			vim.g.codeium_enabled = 0
+			vim.g.codeium_enabled = 1
     end,
   },
   -- other plugins...

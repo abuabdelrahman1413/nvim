@@ -5,7 +5,7 @@
 		lazy = false,
 		priority = 1000,
 		config = function()
-			vim.cmd.colorscheme("gruvbox")
+			-- vim.cmd.colorscheme("gruvbox")
 		end,
 	},
 
@@ -40,7 +40,7 @@
 			-- Color whole diagnostic text or only underline
 			vim.g.doom_one_diagnostics_text_color = false
 			-- Enable transparent background
-			vim.g.doom_one_transparent_background = false
+			vim.g.doom_one_transparent_background = true
 
 			-- Pumblend transparency
 			vim.g.doom_one_pumblend_enable = false
@@ -60,7 +60,7 @@
 			vim.g.doom_one_plugin_lspsaga = false
 		end,
 		config = function()
-			-- vim.cmd("colorscheme doom-one")
+			vim.cmd("colorscheme doom-one")
 		end,
 	}
 
