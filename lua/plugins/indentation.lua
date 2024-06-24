@@ -1,0 +1,12 @@
+-- return {
+--     -- Indentation Highlighting
+--     {
+--         "lukas-reineke/indent-blankline.nvim",
+--     },
+--
+--     -- Rainbow Highlighting
+--     {
+--         "HiPhish/nvim-ts-rainbow2",
+--     },
+-- }
+return { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }
